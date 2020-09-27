@@ -24,18 +24,18 @@ Remove navigation components from your landing page by setting options in its pa
 {{%notice success%}}
 **Nothing but my content !**
 \
-set `render="raw"` in your home page frontmatter : only your content will be rendered, without menu, toc, headers, etc..... [example]({{%relref "/examples/page with raw content"%}})
+set `type="raw"` in your home page frontmatter : only your content will be rendered, without menu, toc, headers, etc..... [example]({{%relref "/examples/page with raw content"%}})
 {{%/notice%}}
 
 ## Use plain HTML for your homepage
 Remember that hugo allows you to write your content with HTML when markdown if not enough. very usefull for a landing page !
 
 Example
-```toml
-+++
-title="Homepage"
-render="raw"
-+++
+```yaml
+---
+title: Homepage
+type: raw
+---
 <div class="myHome">
 	Hello
 </div>
