@@ -343,15 +343,17 @@ article section.page {
                 text-align: right;
                 justify-content: flex-end;
                 padding: 20px;
+                
             }
 
             label{
                 font-size: 24px;    
                 font-weight: 700;
                 cursor: pointer;
+                
             }
             p{
-                font-size: 15px;
+                font-size: 17px;
                 padding: 0px;
                 margin: 0px;
                 text-align: left;
@@ -368,11 +370,11 @@ article section.page {
      h1:first-of-type {
         font-size: 2.6rem;
         margin-top: 1.5rem!important;
-        color:$c_dark2;
+       
         margin-bottom: 0px;
         line-height: 1.05;
-        letter-spacing: -.05em;
-        font-weight: 700;
+        letter-spacing: .8em;
+        font-weight: 600;
         span{
             font-size: 90%;
             font-weight: 500;
@@ -408,19 +410,20 @@ article section.page div.content{
     }
 
     h1 {
-        color:$c_dark1;
+        color:$c_saturate7;
         
         font-variant-ligatures:none;
         font-weight:700;
 
-        letter-spacing:-0.75px;
+        letter-spacing: 0.75px;
         line-height:32px;
    }
 
     h2 {
         margin-top: 0.5em;
         font-weight:700;
-        letter-spacing:-0.95px;
+        letter-spacing: .05em;
+        
 
     } 
 
@@ -465,7 +468,7 @@ article section.page div.content{
 
         td:first-child {
             code {
-                background-color: transparent;
+                background-color: $c_light1;
                 padding: 0
             }
         }
@@ -516,7 +519,7 @@ article section.page div.content{
                 padding: 10px;
                 border-radius:.5rem;
                 font-weight: inherit;
-                background-color: #e9edf0;                
+                background-color: $c_light1;               
                 border: 1px solid #a6a6a6;
                 
             }
@@ -539,7 +542,7 @@ article section.page div.content{
              padding: 10px;
              border-radius: .5rem;
              font-weight: inherit;
-             background-color: #e9edf0;
+             background-color: $c_light1;
              border: 1px solid #a6a6a6;
 
          }
@@ -573,7 +576,7 @@ div.highlight pre code:not([class*=language-]) {
     font-size: 1.125rem;
     border-radius:.5rem;
     
-    background-color: #e9edf0;
+    background-color: $c_light1;
     border: 1px solid #a6a6a6;
 }
 

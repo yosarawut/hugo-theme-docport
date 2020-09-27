@@ -30,8 +30,8 @@ disableKinds = ["taxonomy", "taxonomyTerm", "category", "RSS"]
 
 [params]
 ordersectionsby = "weight" # ordersectionsby = "title"
-color_main = "#737373"
-#color_second = "#b30000"
+color_main = "#262f39"
+color_second = "#dc3545"
 disableSearch = false # default is false
 disableNavChevron = false # set true to hide next/prev chevron, default is false
 menushortcutsnewtab = false # set true to open shortcuts links to a new tab/window
@@ -64,7 +64,7 @@ guessSyntax = true
 hl_Lines = ""
 lineNoStart = 1
 lineNos = false
-lineNumbersInTable = true
+lineNumbersInTable = false
 noClasses = true
 style = "monokai"
 tabWidth = 2
